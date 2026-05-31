@@ -2,12 +2,14 @@
 <img width="940" height="490" alt="image" src="https://github.com/user-attachments/assets/c53af842-f1a7-4bdb-a306-fa3384363be9" />
 
 Команды: 
+```
 sudo apt update && sudo apt upgrade -y  
 sudo apt install postgresql postgresql-contrib -y  
 wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-2+ubuntu24.04_all.deb  
 sudo dpkg -i zabbix-release_7.0-2+ubuntu24.04_all.deb  
 sudo apt update  
-sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.4-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent -y  
+sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.4-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent -y
+```
   
 ЗАДАНИЕ 2
 
@@ -19,11 +21,12 @@ sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.4-pgsql zabbix-apa
 
 <img width="1722" height="940" alt="image" src="https://github.com/user-attachments/assets/db3373b0-cc20-4634-a702-cb2f3b3135d8" />
 
-<img width="860" height="432" alt="image" src="https://github.com/user-attachments/assets/3d7f7e8a-f575-41bf-8e3b-f2aca7136242" />
+<img width="668" height="171" alt="image" src="https://github.com/user-attachments/assets/89dc85cc-08c9-421c-b89c-df7ba1b1252e" />
+
 
 
 Команды:  
-  
+```
 sudo apt update  
 sudo apt install zabbix-agent -y  
 sudo nano /etc/zabbix/zabbix_agentd.conf  
@@ -33,3 +36,4 @@ sudo nano /etc/zabbix/zabbix_agentd.conf
 sudo systemctl restart zabbix-agent  
 sudo systemctl enable zabbix-agent  
 sudo systemctl status zabbix-agent  
+```
