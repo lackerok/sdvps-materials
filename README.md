@@ -17,6 +17,11 @@ sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.4-pgsql zabbix-apa
 
 <img width="623" height="394" alt="image" src="https://github.com/user-attachments/assets/989d43f6-339f-4aa1-ae4f-67abeac91d4b" />
 
+<img width="1722" height="940" alt="image" src="https://github.com/user-attachments/assets/db3373b0-cc20-4634-a702-cb2f3b3135d8" />
+
+<img width="860" height="432" alt="image" src="https://github.com/user-attachments/assets/3d7f7e8a-f575-41bf-8e3b-f2aca7136242" />
+
+
 Команды:  
   
 sudo apt update  
