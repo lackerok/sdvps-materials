@@ -22,11 +22,9 @@ sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.4-pgsql zabbix-apa
 sudo apt update
 sudo apt install zabbix-agent -y
 sudo nano /etc/zabbix/zabbix_agentd.conf
-
-# Server=111.88.155.119
-# ServerActive=111.88.155.119
-# Hostname=Home-VM  (или Cloud-Server) (имя хоста для заббикса)
-
+#Server=111.88.155.119
+#ServerActive=111.88.155.119
+#Hostname=Home-VM (или Cloud-Server) (имя хоста для заббикса)
 sudo systemctl restart zabbix-agent
 sudo systemctl enable zabbix-agent
 sudo systemctl status zabbix-agent
